@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Lab 2</title>
+</head>
+<body>
+    <h2>First Table</h2>
+    <table id="table1" border="1">
+        <tr><td>Math</td><td>Physics</td></tr>
+        <tr><td>Chemistry</td><td>Biology</td></tr>
+    </table>
+
+    <h2>Second Table</h2>
+    <table id="table2" border="1">
+        <tr>
+            <td><a href="https://example.com">Open Resource</a></td>
+            <td>Check link</td>
+        </tr>
+        <tr><td>Row two left</td><td>Row two right</td></tr>
+    </table>
+
+    <h2>Images</h2>
+    <img src="1.png" />
+    <img src="2.png" />
+    <img src="3.png" />
+
+    <h2>User Data Form</h2>
+    <form id="userData">
+        <label><input type="checkbox" name="course1" value="Math" /> Math</label><br />
+        <label><input type="checkbox" name="course2" value="Science" checked /> Science</label><br />
+        <label><input type="checkbox" name="course3" value="English" checked /> English</label><br />
+        <label><input type="checkbox" name="course4" value="History" /> History</label><br />
+        <button type="button" onclick="alertCheckedCheckboxes()">View Answers</button>
+    </form>
+
+    <div id="example" style="width: 200px; height: 100px; border: 1px solid black; margin-top: 20px;">
+        Output will appear here.
+    </div>
+
+    <script src="lab2.js"></script>
+</body>
+</html>
